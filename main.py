@@ -16,6 +16,7 @@ class Bank:
         print('Amount Successfully Deposited To Your Account!!\n')
         self.balance += amount
 
+    # method to withdraw money from account declared here
     def withdraw_money(self, amount):
         if amount > self.balance:
             print('Insufficient Balance!!\n')
